@@ -1,0 +1,4 @@
+root: D:\Sandbox\claude-code-course 
+path: C:\Program Files\nodejs 
+arch: 64 
+proxy: none
