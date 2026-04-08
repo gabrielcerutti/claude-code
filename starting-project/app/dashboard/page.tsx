@@ -21,7 +21,7 @@ export default async function DashboardPage() {
         <h1 className="text-2xl font-bold">Your Notes</h1>
         <Link
           href="/notes/new"
-          className="rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background"
+          className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary-hover transition-colors"
         >
           New Note
         </Link>

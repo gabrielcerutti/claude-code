@@ -37,7 +37,7 @@ export default async function NoteViewPage({ params }: { params: Promise<{ id: s
         <div className="flex shrink-0 gap-2">
           <Link
             href={`/notes/${id}/edit`}
-            className="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 transition-colors"
+            className="rounded-md bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary-hover transition-colors"
           >
             Edit
           </Link>
