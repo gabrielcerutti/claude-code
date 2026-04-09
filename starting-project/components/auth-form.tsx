@@ -75,7 +75,7 @@ export default function AuthForm({ mode }: { mode: "login" | "signup" }) {
           <button
             type="submit"
             disabled={loading}
-            className="w-full py-2 rounded-md bg-foreground text-background font-medium disabled:opacity-50"
+            className="w-full py-2 rounded-md bg-primary text-white font-medium hover:bg-primary-hover transition-colors disabled:opacity-50"
           >
             {loading ? "Loading..." : isSignup ? "Create Account" : "Sign In"}
           </button>

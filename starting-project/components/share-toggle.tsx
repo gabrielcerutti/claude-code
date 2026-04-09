@@ -96,7 +96,7 @@ export default function ShareToggle({
           <button
             type="button"
             onClick={handleCopy}
-            className="shrink-0 rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 transition-colors"
+            className="shrink-0 rounded-md bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary-hover transition-colors"
           >
             {copied ? "Copied!" : "Copy"}
           </button>
