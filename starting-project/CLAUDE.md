@@ -23,6 +23,8 @@ A note-taking web app where authenticated users can create, edit, delete, and pu
 - **Auth migrations:** `bunx --bun auth@latest migrate`
 - **Auth codegen:** `bunx --bun auth@latest generate`
 
+> The `notes` table and indexes are auto-created by `lib/db.ts` on first import — no separate migration step needed.
+
 Always use `bunx --bun` (not plain `bunx`) for better-auth CLI commands to avoid `bun:sqlite` type errors.
 
 ## Tech Stack
